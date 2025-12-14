@@ -1,0 +1,447 @@
+[11-Dec-2025 21:53:26 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\XAMPP\htdocs\backend\auth\login.php on line 40
+[11-Dec-2025 21:53:42 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\XAMPP\htdocs\backend\auth\login.php on line 40
+[11-Dec-2025 22:35:28 Europe/Berlin] Request path: auth/login
+[11-Dec-2025 22:35:28 Europe/Berlin] Controller: auth
+[11-Dec-2025 22:35:28 Europe/Berlin] Action: login
+[11-Dec-2025 22:35:31 Europe/Berlin] Request path: auth/login
+[11-Dec-2025 22:35:31 Europe/Berlin] Controller: auth
+[11-Dec-2025 22:35:31 Europe/Berlin] Action: login
+[11-Dec-2025 22:35:35 Europe/Berlin] Request path: 
+[11-Dec-2025 22:35:35 Europe/Berlin] Controller: 
+[11-Dec-2025 22:35:35 Europe/Berlin] Action: 
+[11-Dec-2025 22:36:00 Europe/Berlin] Request path: auth/login
+[11-Dec-2025 22:36:00 Europe/Berlin] Controller: auth
+[11-Dec-2025 22:36:00 Europe/Berlin] Action: login
+[11-Dec-2025 22:38:10 Europe/Berlin] Request: , Controller: , Action: index
+[11-Dec-2025 22:38:25 Europe/Berlin] Request: auth/login, Controller: auth, Action: login
+[11-Dec-2025 22:42:30 Europe/Berlin] Request: auth/get_user, Controller: auth, Action: get_user
+[11-Dec-2025 22:42:30 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:42:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\auth\get_user.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:43:14 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:43:14 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:14 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:43:14 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:43:14 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:14 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: auth/get_user, Controller: auth, Action: get_user
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\auth\get_user.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: auth/get_user, Controller: auth, Action: get_user
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\auth\get_user.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:43:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: auth/get_user, Controller: auth, Action: get_user
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\auth\get_user.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: auth/get_user, Controller: auth, Action: get_user
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\auth\get_user.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\auth\get_user.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:47:38 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:47:38 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] Request: sections/get_all, Controller: sections, Action: get_all
+[11-Dec-2025 22:47:38 Europe/Berlin] Request: courses/get_all, Controller: courses, Action: get_all
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] Request: trainers/get_all, Controller: trainers, Action: get_all
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\trainers\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\trainers\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Warning:  require_once(../database.php): Failed to open stream: No such file or directory in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\courses\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\courses\get_all.php on line 3
+[11-Dec-2025 22:47:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../database.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\backend\sections\get_all.php:3
+Stack trace:
+#0 D:\XAMPP\htdocs\backend\index.php(39): require_once()
+#1 {main}
+  thrown in D:\XAMPP\htdocs\backend\sections\get_all.php on line 3
+[11-Dec-2025 23:15:25 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:15:25 Europe/Berlin] Method: POST
+[11-Dec-2025 23:15:25 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:15:25 Europe/Berlin] Request body: {"endpoint":"auth/login","email":"admin@mail.com","password":"12345"}
+[11-Dec-2025 23:15:25 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => auth/login
+    [email] => admin@mail.com
+    [password] => 12345
+)
+
+[11-Dec-2025 23:15:25 Europe/Berlin] Endpoint: auth/login
+[11-Dec-2025 23:15:25 Europe/Berlin] Login attempt: email=admin@mail.com, password=***
+[11-Dec-2025 23:15:25 Europe/Berlin] Password verified for user: admin@mail.com
+[11-Dec-2025 23:15:25 Europe/Berlin] Login successful for user: admin@mail.com
+[11-Dec-2025 23:16:14 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:16:14 Europe/Berlin] Method: POST
+[11-Dec-2025 23:16:14 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:16:14 Europe/Berlin] Request body: {"endpoint":"auth/login","email":"admin@mail.com","password":"12345"}
+[11-Dec-2025 23:16:14 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => auth/login
+    [email] => admin@mail.com
+    [password] => 12345
+)
+
+[11-Dec-2025 23:16:14 Europe/Berlin] Endpoint: auth/login
+[11-Dec-2025 23:16:14 Europe/Berlin] Login attempt: email=admin@mail.com, password=***
+[11-Dec-2025 23:16:14 Europe/Berlin] Password verified for user: admin@mail.com
+[11-Dec-2025 23:16:14 Europe/Berlin] Login successful for user: admin@mail.com
+[11-Dec-2025 23:17:18 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:17:18 Europe/Berlin] Method: POST
+[11-Dec-2025 23:17:18 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:17:18 Europe/Berlin] Request body: {"endpoint":"auth/login","email":"admin@mail.com","password":"12345"}
+[11-Dec-2025 23:17:18 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => auth/login
+    [email] => admin@mail.com
+    [password] => 12345
+)
+
+[11-Dec-2025 23:17:18 Europe/Berlin] Endpoint: auth/login
+[11-Dec-2025 23:17:18 Europe/Berlin] Login attempt: email=admin@mail.com, password=***
+[11-Dec-2025 23:17:18 Europe/Berlin] Password verified for user: admin@mail.com
+[11-Dec-2025 23:17:18 Europe/Berlin] Login successful for user: admin@mail.com
+[11-Dec-2025 23:20:34 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:20:34 Europe/Berlin] Method: POST
+[11-Dec-2025 23:20:34 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:20:34 Europe/Berlin] Request body: {"endpoint":"trainers/get_all"}
+[11-Dec-2025 23:20:34 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => trainers/get_all
+)
+
+[11-Dec-2025 23:20:34 Europe/Berlin] Endpoint: trainers/get_all
+[11-Dec-2025 23:20:34 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:20:34 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:20:34 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:20:34 Europe/Berlin] Method: POST
+[11-Dec-2025 23:20:34 Europe/Berlin] Method: POST
+[11-Dec-2025 23:20:34 Europe/Berlin] Method: POST
+[11-Dec-2025 23:20:34 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:20:34 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:20:34 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:20:34 Europe/Berlin] Request body: {"endpoint":"courses/get_all"}
+[11-Dec-2025 23:20:34 Europe/Berlin] Request body: {"endpoint":"courses/get_all"}
+[11-Dec-2025 23:20:34 Europe/Berlin] Request body: {"endpoint":"trainers/get_all"}
+[11-Dec-2025 23:20:34 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => courses/get_all
+)
+
+[11-Dec-2025 23:20:34 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => courses/get_all
+)
+
+[11-Dec-2025 23:20:34 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => trainers/get_all
+)
+
+[11-Dec-2025 23:20:34 Europe/Berlin] Endpoint: courses/get_all
+[11-Dec-2025 23:20:34 Europe/Berlin] Endpoint: trainers/get_all
+[11-Dec-2025 23:20:34 Europe/Berlin] Endpoint: courses/get_all
+[11-Dec-2025 23:20:37 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:20:37 Europe/Berlin] Method: POST
+[11-Dec-2025 23:20:37 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:20:37 Europe/Berlin] Request body: {"endpoint":"trainers/get_all"}
+[11-Dec-2025 23:20:37 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => trainers/get_all
+)
+
+[11-Dec-2025 23:20:37 Europe/Berlin] Endpoint: trainers/get_all
+[11-Dec-2025 23:20:37 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:20:37 Europe/Berlin] Method: POST
+[11-Dec-2025 23:20:37 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:20:37 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:20:37 Europe/Berlin] Request body: {"endpoint":"courses/get_all"}
+[11-Dec-2025 23:20:37 Europe/Berlin] Method: POST
+[11-Dec-2025 23:20:37 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:20:37 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => courses/get_all
+)
+
+[11-Dec-2025 23:20:37 Europe/Berlin] Method: POST
+[11-Dec-2025 23:20:37 Europe/Berlin] Endpoint: courses/get_all
+[11-Dec-2025 23:20:37 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:20:37 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:20:37 Europe/Berlin] Request body: {"endpoint":"courses/get_all"}
+[11-Dec-2025 23:20:37 Europe/Berlin] Request body: {"endpoint":"trainers/get_all"}
+[11-Dec-2025 23:20:37 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => courses/get_all
+)
+
+[11-Dec-2025 23:20:37 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => trainers/get_all
+)
+
+[11-Dec-2025 23:20:37 Europe/Berlin] Endpoint: courses/get_all
+[11-Dec-2025 23:20:37 Europe/Berlin] Endpoint: trainers/get_all
+[11-Dec-2025 23:21:04 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:21:04 Europe/Berlin] Method: POST
+[11-Dec-2025 23:21:04 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:21:04 Europe/Berlin] Request body: {"endpoint":"trainers/get_all"}
+[11-Dec-2025 23:21:04 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => trainers/get_all
+)
+
+[11-Dec-2025 23:21:04 Europe/Berlin] Endpoint: trainers/get_all
+[11-Dec-2025 23:21:04 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:21:04 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:21:04 Europe/Berlin] === API Request ===
+[11-Dec-2025 23:21:04 Europe/Berlin] Method: POST
+[11-Dec-2025 23:21:04 Europe/Berlin] Method: POST
+[11-Dec-2025 23:21:04 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:21:04 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:21:04 Europe/Berlin] Request body: {"endpoint":"trainers/get_all"}
+[11-Dec-2025 23:21:04 Europe/Berlin] Method: POST
+[11-Dec-2025 23:21:04 Europe/Berlin] Request body: {"endpoint":"courses/get_all"}
+[11-Dec-2025 23:21:04 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => trainers/get_all
+)
+
+[11-Dec-2025 23:21:04 Europe/Berlin] Content-Type: application/json
+[11-Dec-2025 23:21:04 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => courses/get_all
+)
+
+[11-Dec-2025 23:21:04 Europe/Berlin] Endpoint: trainers/get_all
+[11-Dec-2025 23:21:04 Europe/Berlin] Request body: {"endpoint":"courses/get_all"}
+[11-Dec-2025 23:21:04 Europe/Berlin] Endpoint: courses/get_all
+[11-Dec-2025 23:21:04 Europe/Berlin] Parsed input: Array
+(
+    [endpoint] => courses/get_all
+)
+
+[11-Dec-2025 23:21:04 Europe/Berlin] Endpoint: courses/get_all
